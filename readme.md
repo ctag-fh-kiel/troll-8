@@ -22,6 +22,6 @@ This repo contains:
 # Acknoledgements
   - All Arduino examples make use of the amazing [Mozzi Sound Library](http://sensorium.github.io/Mozzi/)
 # Media
-## [Youtube](https://www.youtube.com/watch?v=BTMn9AdLmPc&t=109s)
-[![av500](https://lh3.googleusercontent.com/-U4GCT7opsmM/WPDmIHdUVhI/AAAAAAABhls/X8G_oOsgKf83205EZp0VmD0nrlAepXoPwCJoC/s530-p-rw/Video%2Bby%2BNone-BS3pLq0lAAh.mp4)](https://www.instagram.com/p/BS3pLq0lAAh/?taken-by=av5oo)
+[![CTAG](http://www.creative-technologies.de/wp-content/uploads/2017/04/2017-04-15-15_07_55-Rechner.png)](https://www.youtube.com/watch?v=BTMn9AdLmPc&t=76s)
+[![av500](https://lh3.googleusercontent.com/-U4GCT7opsmM/WPDmIHdUVhI/AAAAAAABhls/X8G_oOsgKf83205EZp0VmD0nrlAepXoPwCJoC/s530-p-rw/Video%2Bby%2BNone-BS3pLq0lAAh.mp4)](https://www.youtube.com/watch?v=JXBJwmJRRko)
 [![Gearnews](https://www.gearnews.de/wp-content/uploads/2017/03/troll8-synth.jpg)](https://www.gearnews.de/creative-technology-%C2%B5synth/)
