@@ -25,4 +25,4 @@ This repo contains:
 [![CTAG](http://www.creative-technologies.de/wp-content/uploads/2017/04/2017-04-15-15_07_55-Rechner.png)](https://www.youtube.com/watch?v=BTMn9AdLmPc&t=76s)
 [![av500](https://lh3.googleusercontent.com/-U4GCT7opsmM/WPDmIHdUVhI/AAAAAAABhls/X8G_oOsgKf83205EZp0VmD0nrlAepXoPwCJoC/s530-p-rw/Video%2Bby%2BNone-BS3pLq0lAAh.mp4)](https://www.youtube.com/watch?v=JXBJwmJRRko)
 [![Gearnews German](https://www.gearnews.de/wp-content/uploads/2017/03/troll8-synth.jpg)](https://www.gearnews.de/creative-technology-%C2%B5synth/)
-## [Gearnews English](https://www.gearnews.com/troll8-micro-sized-synthesizer-sequencer-controller-drum-machine/)
+## [Gearnews English (click here)](https://www.gearnews.com/troll8-micro-sized-synthesizer-sequencer-controller-drum-machine/)
