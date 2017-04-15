@@ -1,0 +1,474 @@
+EESchema Schematic File Version 2
+LIBS:troll-8-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:troll-8-lib
+LIBS:ad1938-audio-card-lib
+LIBS:arduino
+LIBS:troll-8-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title "CTAG Troll 8"
+Date "2015-12-29"
+Rev "Rev. A"
+Comp "www.creative-technologies.de"
+Comment1 ""
+Comment2 ""
+Comment3 "International License"
+Comment4 "Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 "
+$EndDescr
+$Comp
+L LED-RESCUE-troll-8 D601
+U 1 1 56816C8A
+P 4600 1900
+AR Path="/56816C8A" Ref="D601"  Part="1" 
+AR Path="/56815DD7/56816C8A" Ref="D601"  Part="1" 
+F 0 "D601" H 4850 1950 50  0000 C CNN
+F 1 "LED" H 4350 1950 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 1900 50  0001 C CNN
+F 3 "" H 4600 1900 50  0000 C CNN
+	1    4600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D602
+U 1 1 56816D1C
+P 4600 2000
+AR Path="/56816D1C" Ref="D602"  Part="1" 
+AR Path="/56815DD7/56816D1C" Ref="D602"  Part="1" 
+F 0 "D602" H 4850 2050 50  0000 C CNN
+F 1 "LED" H 4350 2050 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2000 50  0001 C CNN
+F 3 "" H 4600 2000 50  0000 C CNN
+	1    4600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D603
+U 1 1 56816D38
+P 4600 2100
+AR Path="/56816D38" Ref="D603"  Part="1" 
+AR Path="/56815DD7/56816D38" Ref="D603"  Part="1" 
+F 0 "D603" H 4850 2150 50  0000 C CNN
+F 1 "LED" H 4350 2150 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2100 50  0001 C CNN
+F 3 "" H 4600 2100 50  0000 C CNN
+	1    4600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D604
+U 1 1 56816D59
+P 4600 2200
+AR Path="/56816D59" Ref="D604"  Part="1" 
+AR Path="/56815DD7/56816D59" Ref="D604"  Part="1" 
+F 0 "D604" H 4850 2250 50  0000 C CNN
+F 1 "LED" H 4350 2250 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2200 50  0001 C CNN
+F 3 "" H 4600 2200 50  0000 C CNN
+	1    4600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D605
+U 1 1 56816D7B
+P 4600 2300
+AR Path="/56816D7B" Ref="D605"  Part="1" 
+AR Path="/56815DD7/56816D7B" Ref="D605"  Part="1" 
+F 0 "D605" H 4850 2350 50  0000 C CNN
+F 1 "LED" H 4350 2350 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2300 50  0001 C CNN
+F 3 "" H 4600 2300 50  0000 C CNN
+	1    4600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D606
+U 1 1 56816DA0
+P 4600 2400
+AR Path="/56816DA0" Ref="D606"  Part="1" 
+AR Path="/56815DD7/56816DA0" Ref="D606"  Part="1" 
+F 0 "D606" H 4850 2450 50  0000 C CNN
+F 1 "LED" H 4350 2450 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2400 50  0001 C CNN
+F 3 "" H 4600 2400 50  0000 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D607
+U 1 1 56816DC8
+P 4600 2500
+AR Path="/56816DC8" Ref="D607"  Part="1" 
+AR Path="/56815DD7/56816DC8" Ref="D607"  Part="1" 
+F 0 "D607" H 4850 2550 50  0000 C CNN
+F 1 "LED" H 4350 2550 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0000 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-troll-8 D608
+U 1 1 56816DF7
+P 4600 2600
+AR Path="/56816DF7" Ref="D608"  Part="1" 
+AR Path="/56815DD7/56816DF7" Ref="D608"  Part="1" 
+F 0 "D608" H 4850 2650 50  0000 C CNN
+F 1 "LED" H 4350 2650 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0000 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1900 5100 1900
+Wire Wire Line
+	5100 2000 4800 2000
+Wire Wire Line
+	4800 2100 5100 2100
+Wire Wire Line
+	5100 2200 4800 2200
+Wire Wire Line
+	4800 2300 5950 2300
+Wire Wire Line
+	4800 2400 6000 2400
+Wire Wire Line
+	4800 2500 6050 2500
+Wire Wire Line
+	4800 2600 5550 2600
+$Comp
+L +3.3V #PWR040
+U 1 1 568172C7
+P 3900 1100
+F 0 "#PWR040" H 3900 950 50  0001 C CNN
+F 1 "+3.3V" H 3900 1240 50  0000 C CNN
+F 2 "" H 3900 1100 50  0000 C CNN
+F 3 "" H 3900 1100 50  0000 C CNN
+	1    3900 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1100 3900 1400
+$Comp
+L C C601
+U 1 1 56817339
+P 4200 1250
+F 0 "C601" H 4225 1350 50  0000 L CNN
+F 1 "100n" H 4225 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 1100 50  0001 C CNN
+F 3 "" H 4200 1250 50  0000 C CNN
+	1    4200 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 1250 3900 1250
+Connection ~ 3900 1250
+$Comp
+L GND #PWR041
+U 1 1 568173E5
+P 4500 1400
+F 0 "#PWR041" H 4500 1150 50  0001 C CNN
+F 1 "GND" H 4500 1250 50  0000 C CNN
+F 2 "" H 4500 1400 50  0000 C CNN
+F 3 "" H 4500 1400 50  0000 C CNN
+	1    4500 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1250 4500 1250
+Wire Wire Line
+	4500 1250 4500 1400
+$Comp
+L +3.3V #PWR042
+U 1 1 5681744A
+P 5750 1450
+F 0 "#PWR042" H 5750 1300 50  0001 C CNN
+F 1 "+3.3V" H 5750 1590 50  0000 C CNN
+F 2 "" H 5750 1450 50  0000 C CNN
+F 3 "" H 5750 1450 50  0000 C CNN
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1550 6350 1550
+Wire Wire Line
+	5000 1550 5000 1800
+Wire Wire Line
+	5000 1800 5100 1800
+Connection ~ 5750 1550
+Wire Wire Line
+	4250 1900 4400 1900
+Wire Wire Line
+	4250 2000 4400 2000
+Wire Wire Line
+	4400 2100 4250 2100
+Wire Wire Line
+	4250 2200 4400 2200
+Wire Wire Line
+	4400 2300 4250 2300
+Wire Wire Line
+	4250 2400 4400 2400
+Wire Wire Line
+	4400 2500 4250 2500
+Wire Wire Line
+	4250 2600 4400 2600
+Wire Wire Line
+	4400 2700 4250 2700
+Wire Wire Line
+	4400 2800 4250 2800
+Wire Wire Line
+	4250 2900 4400 2900
+Wire Wire Line
+	4400 3000 4250 3000
+Wire Wire Line
+	4250 3100 4400 3100
+Wire Wire Line
+	4400 3200 4250 3200
+Wire Wire Line
+	4250 3300 4400 3300
+Wire Wire Line
+	4400 3400 4250 3400
+$Comp
+L GND #PWR043
+U 1 1 56817E09
+P 3550 3850
+F 0 "#PWR043" H 3550 3600 50  0001 C CNN
+F 1 "GND" H 3550 3700 50  0000 C CNN
+F 2 "" H 3550 3850 50  0000 C CNN
+F 3 "" H 3550 3850 50  0000 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3850 3550 3700
+$Comp
+L SW_PUSH SW601
+U 1 1 568198B4
+P 4700 2700
+F 0 "SW601" H 5000 2750 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 2620 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0000 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW602
+U 1 1 56819C32
+P 4700 2800
+F 0 "SW602" H 5000 2850 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 2720 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 2800 50  0001 C CNN
+F 3 "" H 4700 2800 50  0000 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW603
+U 1 1 56819D90
+P 4700 2900
+F 0 "SW603" H 5000 2950 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 2820 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 2900 50  0001 C CNN
+F 3 "" H 4700 2900 50  0000 C CNN
+	1    4700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW604
+U 1 1 56819DEB
+P 4700 3000
+F 0 "SW604" H 5000 3050 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 2920 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0000 C CNN
+	1    4700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW605
+U 1 1 56819EC5
+P 4700 3100
+F 0 "SW605" H 5000 3150 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 3020 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0000 C CNN
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW606
+U 1 1 56819ECB
+P 4700 3200
+F 0 "SW606" H 5000 3250 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 3120 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 3200 50  0001 C CNN
+F 3 "" H 4700 3200 50  0000 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW607
+U 1 1 56819ED1
+P 4700 3300
+F 0 "SW607" H 5000 3350 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 3220 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0000 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW608
+U 1 1 56819ED7
+P 4700 3400
+F 0 "SW608" H 5000 3450 50  0000 C CNN
+F 1 "SW_PUSH" H 4700 3320 50  0001 C CNN
+F 2 "troll-8-footprints:TE-147873-1-Pushbutton" H 4700 3400 50  0001 C CNN
+F 3 "" H 4700 3400 50  0000 C CNN
+	1    4700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2700 5000 2700
+Connection ~ 5350 2700
+Wire Wire Line
+	5000 3300 5350 3300
+Connection ~ 5350 3300
+Wire Wire Line
+	5000 3200 5350 3200
+Connection ~ 5350 3200
+Wire Wire Line
+	5000 3100 5350 3100
+Connection ~ 5350 3100
+Wire Wire Line
+	5000 3000 5350 3000
+Connection ~ 5350 3000
+Wire Wire Line
+	5000 2900 5350 2900
+Connection ~ 5350 2900
+Wire Wire Line
+	5000 2800 5350 2800
+Connection ~ 5350 2800
+Text HLabel 2100 1900 0    60   Input ~ 0
+SPI_CS7
+Wire Wire Line
+	2100 1900 3100 1900
+Text HLabel 2100 2000 0    60   Input ~ 0
+SPI_MOSI
+Text HLabel 2100 2100 0    60   Output ~ 0
+SPI_MISO
+Text HLabel 2100 2200 0    60   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	3100 2200 2100 2200
+Text HLabel 2100 2600 0    60   Input ~ 0
+RESET
+Wire Wire Line
+	2100 2600 3100 2600
+Wire Wire Line
+	5350 4350 5350 2700
+$Comp
+L EXBA10P-RES U602
+U 1 1 5687D9F1
+P 5300 2250
+F 0 "U602" H 5350 2800 60  0000 C CNN
+F 1 "EXBA10P-RES" H 5550 2200 60  0000 C CNN
+F 2 "troll-8-footprints:EXBA10P" V 5300 2300 60  0001 C CNN
+F 3 "" V 5300 2300 60  0000 C CNN
+	1    5300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2300 5950 2100
+Wire Wire Line
+	5950 2100 5850 2100
+Wire Wire Line
+	6000 2400 6000 2000
+Wire Wire Line
+	6000 2000 5850 2000
+Wire Wire Line
+	6050 2500 6050 1900
+Wire Wire Line
+	6050 1900 5850 1900
+Wire Wire Line
+	5550 2600 5550 2450
+Wire Wire Line
+	5550 2450 6100 2450
+Wire Wire Line
+	6100 2450 6100 1800
+Wire Wire Line
+	6100 1800 5850 1800
+Wire Wire Line
+	5750 1450 5750 1550
+Wire Wire Line
+	6350 1550 6350 2200
+Wire Wire Line
+	6350 2200 5850 2200
+Wire Wire Line
+	2100 2100 3100 2100
+Wire Wire Line
+	2100 2000 3100 2000
+Text Notes 3250 4750 0    60   ~ 0
+Todo: check interrupts on one pin, pull ups on single GPIO\n
+Text HLabel 2100 2700 0    60   Output ~ 0
+INT
+Wire Wire Line
+	3100 2700 2100 2700
+Wire Wire Line
+	5000 3400 5350 3400
+Connection ~ 5350 3400
+$Comp
+L GND #PWR044
+U 1 1 5683B5D1
+P 5350 4350
+F 0 "#PWR044" H 5350 4100 50  0001 C CNN
+F 1 "GND" H 5350 4200 50  0000 C CNN
+F 2 "" H 5350 4350 50  0000 C CNN
+F 3 "" H 5350 4350 50  0000 C CNN
+	1    5350 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23S18-GPIO-QFN-OPEN_DRAIN U601
+U 1 1 5683BCB1
+P 3300 1600
+F 0 "U601" H 3350 1650 60  0000 C CNN
+F 1 "MCP23S18-GPIO-QFN-OPEN_DRAIN" V 3750 700 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 3650 200 60  0001 C CNN
+F 3 "" H 3650 200 60  0000 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

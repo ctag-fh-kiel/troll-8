@@ -1,0 +1,7 @@
+/* TROLL8 uSynth Development Platform
+	(c) 2017 www.creative-technologies.de
+	Main author robert.manzke@fh-kiel.de
+	Contributors Henrik Langer FH-Kiel, Alexander Konradi FH-Kiel
+	Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+*/
+

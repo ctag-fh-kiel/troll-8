@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="samples_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0081871345" sel1="0.4032066658" vpos="0" h="0.0000000000" zoom="977.1428571429" rate="16384.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="Awave Studio v9.1"/>
+		<tag name="TITLE" value="2ch"/>
+	</tags>
+	<wavetrack name="Kick" channel="2" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="16384" gain="1.0" pan="0.0">
+		<waveclip offset="0.05100752">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="1147">
+				<waveblock start="0">
+					<simpleblockfile filename="e00005d9.au" len="1147" min="-0.886529" max="0.592649" rms="0.038992"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Snare" channel="2" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="16384" gain="1.0" pan="0.0">
+		<waveclip offset="0.03785162">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="680">
+				<waveblock start="0">
+					<simpleblockfile filename="e00009d3.au" len="680" min="-0.931219" max="0.906528" rms="0.033642"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="HHC" channel="2" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="16384" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="620">
+				<waveblock start="0">
+					<simpleblockfile filename="e000089d.au" len="620" min="-0.821724" max="0.713645" rms="0.016365"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="HHO" channel="2" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="1" rate="16384" gain="1.0" pan="0.0">
+		<waveclip offset="0.00818713">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="6472">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000bc4.au" len="6472" min="-0.775114" max="0.6964" rms="0.049034"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

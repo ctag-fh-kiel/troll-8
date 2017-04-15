@@ -1,0 +1,288 @@
+EESchema Schematic File Version 2
+LIBS:troll-8-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:troll-8-lib
+LIBS:ad1938-audio-card-lib
+LIBS:arduino
+LIBS:troll-8-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title "CTAG Troll 8"
+Date "2015-12-29"
+Rev "Rev. A"
+Comp "www.creative-technologies.de"
+Comment1 ""
+Comment2 ""
+Comment3 "International License"
+Comment4 "Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 "
+$EndDescr
+$Comp
+L C C501
+U 1 1 5680EBD0
+P 6350 2900
+F 0 "C501" H 6375 3000 50  0000 L CNN
+F 1 "100n" H 6375 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6388 2750 50  0001 C CNN
+F 3 "" H 6350 2900 50  0000 C CNN
+	1    6350 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C502
+U 1 1 5680EC24
+P 6300 4750
+F 0 "C502" H 6325 4850 50  0000 L CNN
+F 1 "100n" H 6325 4650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6338 4600 50  0001 C CNN
+F 3 "" H 6300 4750 50  0000 C CNN
+	1    6300 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 4650 5950 4900
+Wire Wire Line
+	5950 4750 6150 4750
+Wire Wire Line
+	5950 2800 5950 3050
+Wire Wire Line
+	5950 2900 6200 2900
+$Comp
+L GND #PWR032
+U 1 1 5680EC7A
+P 6600 3000
+F 0 "#PWR032" H 6600 2750 50  0001 C CNN
+F 1 "GND" H 6600 2850 50  0000 C CNN
+F 2 "" H 6600 3000 50  0000 C CNN
+F 3 "" H 6600 3000 50  0000 C CNN
+	1    6600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 5680EC98
+P 6550 4850
+F 0 "#PWR033" H 6550 4600 50  0001 C CNN
+F 1 "GND" H 6550 4700 50  0000 C CNN
+F 2 "" H 6550 4850 50  0000 C CNN
+F 3 "" H 6550 4850 50  0000 C CNN
+	1    6550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR034
+U 1 1 5680ECAF
+P 5950 4200
+F 0 "#PWR034" H 5950 3950 50  0001 C CNN
+F 1 "GND" H 5950 4050 50  0000 C CNN
+F 2 "" H 5950 4200 50  0000 C CNN
+F 3 "" H 5950 4200 50  0000 C CNN
+	1    5950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5680ECC6
+P 5950 6050
+F 0 "#PWR035" H 5950 5800 50  0001 C CNN
+F 1 "GND" H 5950 5900 50  0000 C CNN
+F 2 "" H 5950 6050 50  0000 C CNN
+F 3 "" H 5950 6050 50  0000 C CNN
+	1    5950 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4100 5950 4200
+Wire Wire Line
+	5950 5950 5950 6050
+Wire Wire Line
+	6500 2900 6600 2900
+Wire Wire Line
+	6600 2900 6600 3000
+Wire Wire Line
+	6450 4750 6550 4750
+Wire Wire Line
+	6550 4750 6550 4850
+$Comp
+L +3.3V #PWR036
+U 1 1 5680ED40
+P 5950 2800
+F 0 "#PWR036" H 5950 2650 50  0001 C CNN
+F 1 "+3.3V" H 5950 2940 50  0000 C CNN
+F 2 "" H 5950 2800 50  0000 C CNN
+F 3 "" H 5950 2800 50  0000 C CNN
+	1    5950 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 2900
+$Comp
+L +3.3V #PWR037
+U 1 1 5680ED77
+P 5950 4650
+F 0 "#PWR037" H 5950 4500 50  0001 C CNN
+F 1 "+3.3V" H 5950 4790 50  0000 C CNN
+F 2 "" H 5950 4650 50  0000 C CNN
+F 3 "" H 5950 4650 50  0000 C CNN
+	1    5950 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 4750
+Text HLabel 4750 3350 0    60   Input ~ 0
+SPI_CS1
+Text HLabel 4750 5200 0    60   Input ~ 0
+SPI_CS2
+Wire Wire Line
+	4750 3350 5250 3350
+Wire Wire Line
+	5250 5200 4750 5200
+$Comp
+L +3.3V #PWR038
+U 1 1 5680EF28
+P 3900 5700
+F 0 "#PWR038" H 3900 5550 50  0001 C CNN
+F 1 "+3.3V" H 3900 5840 50  0000 C CNN
+F 2 "" H 3900 5700 50  0000 C CNN
+F 3 "" H 3900 5700 50  0000 C CNN
+	1    3900 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R503
+U 1 1 5680EF44
+P 4200 5700
+F 0 "R503" V 4280 5700 50  0000 C CNN
+F 1 "10k" V 4200 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4130 5700 50  0001 C CNN
+F 3 "" H 4200 5700 50  0000 C CNN
+	1    4200 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 5700 5250 5700
+Wire Wire Line
+	3900 5700 4050 5700
+$Comp
+L +3.3V #PWR039
+U 1 1 5680EFF2
+P 3500 3850
+F 0 "#PWR039" H 3500 3700 50  0001 C CNN
+F 1 "+3.3V" H 3500 3990 50  0000 C CNN
+F 2 "" H 3500 3850 50  0000 C CNN
+F 3 "" H 3500 3850 50  0000 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R502
+U 1 1 5680EFF8
+P 4150 3850
+F 0 "R502" V 4230 3850 50  0000 C CNN
+F 1 "10k" V 4150 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3850 50  0001 C CNN
+F 3 "" H 4150 3850 50  0000 C CNN
+	1    4150 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3850 5250 3850
+Wire Wire Line
+	3500 3850 4000 3850
+$Comp
+L R R501
+U 1 1 5680F00F
+P 4150 3750
+F 0 "R501" V 4230 3750 50  0000 C CNN
+F 1 "10k" V 4150 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4080 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0000 C CNN
+	1    4150 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3750 3800 3750
+Wire Wire Line
+	4300 3750 5250 3750
+Connection ~ 3800 3850
+Wire Wire Line
+	3800 3750 3800 3850
+Text HLabel 4750 3450 0    60   Input ~ 0
+SPI_MOSI
+Text HLabel 4750 3550 0    60   Output ~ 0
+SPI_MISO
+Text HLabel 4750 3650 0    60   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	5250 3650 4750 3650
+Wire Wire Line
+	5250 3550 4750 3550
+Wire Wire Line
+	4750 3450 5250 3450
+Wire Wire Line
+	5150 3450 5150 5300
+Wire Wire Line
+	5150 5300 5250 5300
+Connection ~ 5150 3450
+Wire Wire Line
+	5050 3550 5050 5400
+Wire Wire Line
+	5050 5400 5250 5400
+Connection ~ 5050 3550
+Wire Wire Line
+	4950 3650 4950 5500
+Wire Wire Line
+	4950 5500 5250 5500
+Connection ~ 4950 3650
+NoConn ~ 5250 5600
+$Comp
+L SST25VF-FLASH U501
+U 1 1 56869F28
+P 5450 4000
+F 0 "U501" H 5450 4800 60  0000 C CNN
+F 1 "SST25VF-FLASH" V 6100 4450 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5450 4000 60  0001 C CNN
+F 3 "" H 5450 4000 60  0000 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 23A-SRAM U502
+U 1 1 56869F7A
+P 5450 5850
+F 0 "U502" H 5450 6650 60  0000 C CNN
+F 1 "23A-SRAM" V 6100 6300 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5450 5850 60  0001 C CNN
+F 3 "" H 5450 5850 60  0000 C CNN
+	1    5450 5850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
