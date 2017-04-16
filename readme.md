@@ -2,7 +2,7 @@
 # CTAG TROLL8
 TROLL8 is an Arduino Based uSynth development platform.
 This repo contains:
-  - KiCad PCB design files
+  - KiCad PCB design files ([schematics as pdf](https://github.com/ctag-fh-kiel/troll-8/blob/master/Docs/Talk_AmIEs2016_Manzke.pdf))
   - Silkscreen design files
   - Arduino examples
     - Midi controller (requires [hairless midi](http://projectgus.github.io/hairless-midiserial/))
@@ -13,7 +13,7 @@ This repo contains:
     - Teensy 3.1 synthesizer
     - LED example
     - and more...
-  - A short presentation on TROLL8
+  - A short [presentation on TROLL8](https://github.com/ctag-fh-kiel/troll-8/blob/master/Docs/Talk_AmIEs2016_Manzke.pdf)
 # Known Bugs
   - PCB design: Rotary knobs are not evenly spaced
 # Authors / License
