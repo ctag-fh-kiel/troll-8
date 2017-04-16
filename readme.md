@@ -3,6 +3,7 @@
 TROLL8 is an Arduino Based μSynth development platform.
 This repo contains:
   - [KiCad](http://kicad-pcb.org/) PCB design files ([schematics as pdf](https://github.com/ctag-fh-kiel/troll-8/blob/master/Docs/TROLL-8-Schematics.pdf))
+	- You may order the PCB [here](http://dirtypcbs.com/store/designer/details/8229/2509/gerber-zip)
   - Silkscreen design files
   - Arduino examples
     - Midi controller (requires [hairless midi](http://projectgus.github.io/hairless-midiserial/))
