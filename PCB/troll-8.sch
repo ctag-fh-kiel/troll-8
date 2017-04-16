@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "CTAG Troll 8"
+Title "CTAG TROLL8"
 Date "2015-12-29"
 Rev "Rev. A"
-Comp "www.creative-technologies.de"
-Comment1 ""
+Comp "robert.manzke@fh-kiel.de"
+Comment1 "www.creative-technologies.de"
 Comment2 ""
 Comment3 "International License"
 Comment4 "Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 "
@@ -366,7 +366,7 @@ U 1 1 56825B8D
 P 3450 2450
 F 0 "U103" H 3950 1500 70  0000 C CNN
 F 1 "arduino_nano" H 3450 1450 70  0000 C CNN
-F 2 "arduino:arduino_mini" H 3450 1350 60  0000 C CNN
+F 2 "arduino:arduino_mini" H 3450 1350 60  0001 C CNN
 F 3 "" H 3450 2450 60  0000 C CNN
 	1    3450 2450
 	-1   0    0    -1  

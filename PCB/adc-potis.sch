@@ -38,11 +38,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title "CTAG Troll 8"
+Title "CTAG TROLL8"
 Date "2015-12-29"
 Rev "Rev. A"
-Comp "www.creative-technologies.de"
-Comment1 ""
+Comp "robert.manzke@fh-kiel.de"
+Comment1 "www.creative-technologies.de"
 Comment2 ""
 Comment3 "International License"
 Comment4 "Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 "
