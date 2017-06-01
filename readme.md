@@ -1,4 +1,4 @@
-[![CTAG](http://www.creative-technologies.de/wp-content/uploads/2017/06/ctag-logo-horizontal1.png](http://www.creative-technologies.de/troll8/)
+[![CTAG](http://www.creative-technologies.de/wp-content/uploads/2017/06/ctag-logo-horizontal1.png)](http://www.creative-technologies.de/troll8/)
 # CTAG TROLL8
 TROLL8 is an Arduino Based μSynth development platform.
 This repo contains:
